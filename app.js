@@ -2,7 +2,7 @@
 const Header = () => {
     return(
         <div className = "header">
-            <h1> DASHBOARD </h1>
+            <h1> DASH  BOARD </h1>
         </div>
 
     )     
@@ -21,6 +21,9 @@ const AverageRating = () => {
     return(
         <div className = "container2">
             <h2>Average Rating</h2>
+            <ul className = "list2">
+                <li>4.6</li>
+            </ul>
         </div>
     )
 };
@@ -29,6 +32,7 @@ const WebsiteVisitors = () => {
     return(
         <div className = "container3">
             <h2>Website Visitors</h2>
+            <img src="./Images/flowing-lines-banner.jpg"></img>
         </div>
     )
 };
@@ -37,6 +41,24 @@ const Menu = () => {
     return(
         <div className = "menubar">
             <h2>Menu</h2>
+            <ul className = "list">
+                <li>Stash</li>
+                <br></br>
+                <br></br>
+                <li>Followers</li>
+                <br></br>
+                <br></br>
+                <li>Settings</li>
+                <br></br>
+                <br></br>
+                <li>Connect</li>
+                <br></br>
+                <br></br>
+                <li>Socials</li>
+                <br></br>
+                <br></br>
+                <li>Log Out</li>
+            </ul>
         </div>
     )
 };
@@ -45,6 +67,13 @@ const Analyis = () => {
     return(
         <div className = "container4">
             <h2>Analysis</h2>
+            <ul className = "list2">
+                <li>341</li>
+                <br></br>
+                <li>906</li>
+                <br></br>
+                <li>576</li>
+            </ul>
         </div>
     )
 }
