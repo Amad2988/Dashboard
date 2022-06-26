@@ -31,8 +31,7 @@ const AverageRating = () => {
 const WebsiteVisitors = () => {
     return(
         <div className = "container3">
-            <h2>Website Visitors</h2>
-            <img src="./Images/flowing-lines-banner.jpg"></img>
+            <h3>Website Visitors</h3>
         </div>
     )
 };
